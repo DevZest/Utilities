@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 
 namespace DevZest
@@ -7,8 +8,8 @@ namespace DevZest
     {
         internal static string GetUniqueName(this Dictionary<string, int> suffixes, string name)
         {
-            suffixes.VerifyNotNull(nameof(suffixes));
-            name.VerifyNotEmpty(nameof(name));
+            Debug.Assert(suffixes != null);
+            Debug.Assert(!string.IsNullOrWhiteSpace(name));
 
             if (suffixes.TryGetValue(name, out var suffix))
                 suffix++;
