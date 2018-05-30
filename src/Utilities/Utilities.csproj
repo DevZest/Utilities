@@ -45,7 +45,6 @@
     <Compile Include="ToDo.cs" />
     <Compile Include="Type.IsNullable.cs" />
     <Compile Include="Type.GetStaticMethodInfo.cs" />
-    <Compile Include="Type.IsComparable.cs" />
     <Compile Include="Type.ResolveStaticGetter.cs" />
   </ItemGroup>
   <ItemGroup>
