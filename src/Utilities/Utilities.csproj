@@ -31,9 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Argument.VerifyNotNull.cs" />
+    <Compile Include="ArgumentString.VerifyNotEmpty.cs" />
+    <Compile Include="ArgumentList.VerifyNotEmpty.cs" />
     <Compile Include="Array.Empty.cs" />
     <Compile Include="Bytes.ToHexString.cs" />
+    <Compile Include="ArgumentListItem.VerifyNotNull.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToDo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
