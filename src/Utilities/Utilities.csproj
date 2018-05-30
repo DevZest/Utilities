@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Argument.VerifyNotNull.cs" />
     <Compile Include="Array.Empty.cs" />
     <Compile Include="Bytes.ToHexString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
