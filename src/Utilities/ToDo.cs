@@ -16,9 +16,9 @@ namespace DevZest
                 return string.Format("The argument '{0}' cannot be null or empty.", parameterName);
             }
 
-            public static string CannotResolveStaticProperty(Type resourceType, string resourceName, Type propertyType)
+            public static string CannotResolveStaticProperty(Type type, string propertyName, Type propertyType)
             {
-                return string.Format("Cannot resolve static property {0}.{1} of {2}.", resourceType, resourceName, propertyType);
+                return string.Format("Cannot resolve static property {0}.{1} of {2}.", type, propertyName, propertyType);
             }
         }
     }
