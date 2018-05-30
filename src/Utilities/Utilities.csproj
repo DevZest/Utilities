@@ -42,6 +42,7 @@
     <Compile Include="NameSuffixes.GetUniqueName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToDo.cs" />
+    <Compile Include="Type.ResolveStaticGetter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
