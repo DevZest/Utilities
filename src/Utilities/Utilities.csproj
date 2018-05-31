@@ -49,11 +49,18 @@
     <Compile Include="Type.IsNullable.cs" />
     <Compile Include="Type.GetStaticMethodInfo.cs" />
     <Compile Include="Type.ResolveStaticGetter.cs" />
+    <Compile Include="Windows\DragHandlerBase.cs" />
+    <Compile Include="Windows\KeyboardManager.cs" />
+    <Compile Include="Windows\Point.IsClose.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
