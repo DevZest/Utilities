@@ -38,6 +38,7 @@
     <Compile Include="BooleanBoxes.cs" />
     <Compile Include="Bytes.ToHexString.cs" />
     <Compile Include="Argument.IReadOnlyListItem.VerifyNotNull.cs" />
+    <Compile Include="Double.IsClose.cs" />
     <Compile Include="EmptyDictionary.Singleton.cs" />
     <Compile Include="EmptyEnumerable.Singleton.cs" />
     <Compile Include="EmptyEnumerator.Singleton.cs" />
