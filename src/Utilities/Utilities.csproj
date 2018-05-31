@@ -31,11 +31,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Argument.VerifyNotNull.cs" />
-    <Compile Include="ArgumentString.VerifyNotEmpty.cs" />
-    <Compile Include="ArgumentList.VerifyNotEmpty.cs" />
+    <Compile Include="Argument.IReadOnlyList.VerifyNoNullItem.cs" />
+    <Compile Include="Argument.String.VerifyNotEmpty.cs" />
+    <Compile Include="Argument.IReadOnlyList.VerifyNotEmpty.cs" />
     <Compile Include="Array.Empty.cs" />
     <Compile Include="Bytes.ToHexString.cs" />
-    <Compile Include="ArgumentListItem.VerifyNotNull.cs" />
+    <Compile Include="Argument.IReadOnlyListItem.VerifyNotNull.cs" />
     <Compile Include="EmptyDictionary.Singleton.cs" />
     <Compile Include="EmptyEnumerable.Singleton.cs" />
     <Compile Include="EmptyEnumerator.Singleton.cs" />
