@@ -18,7 +18,7 @@ namespace DevZest
             }
             catch (Exception ex)
             {
-                throw new InvalidOperationException(ToDo.CannotResolveStaticProperty(resourceType, resourceName, typeof(T)), ex);
+                throw new InvalidOperationException(Stubs.FailedToResolveStaticProperty(resourceType, resourceName, typeof(T)), ex);
             }
         }
 

@@ -9,7 +9,7 @@ namespace DevZest
         {
             list.VerifyNotNull(parameterName);
             if (list.Count == 0)
-                throw new ArgumentException(ToDo.ArgumentIsNullOrEmptyList(parameterName), parameterName);
+                throw new ArgumentException(Stubs.ArgumentIsNullOrEmptyList(parameterName), parameterName);
 
             return list;
         }

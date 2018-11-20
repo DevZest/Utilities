@@ -7,7 +7,7 @@ namespace DevZest
         internal static string VerifyNotEmpty(this string value, string parameterName)
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException(ToDo.ArgumentIsNullOrWhitespace(parameterName), parameterName);
+                throw new ArgumentException(Stubs.ArgumentIsNullOrWhitespace(parameterName), parameterName);
 
             return value;
         }
