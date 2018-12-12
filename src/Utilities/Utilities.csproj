@@ -43,6 +43,7 @@
     <Compile Include="EmptyEnumerator.Singleton.cs" />
     <Compile Include="NameSuffixes.GetUniqueName.cs" />
     <Compile Include="Nullable.EqualsTo.cs" />
+    <Compile Include="Object.IsNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stubs.cs" />
     <Compile Include="Type.IsNullable.cs" />
