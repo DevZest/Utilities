@@ -45,6 +45,7 @@
     <Compile Include="Nullable.EqualsTo.cs" />
     <Compile Include="Object.IsNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String.ReadFromConsole.cs" />
     <Compile Include="Stubs.cs" />
     <Compile Include="Type.IsNullable.cs" />
     <Compile Include="Type.GetStaticMethodInfo.cs" />
