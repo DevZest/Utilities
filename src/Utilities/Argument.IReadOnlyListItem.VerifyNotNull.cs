@@ -10,7 +10,7 @@ namespace DevZest
         {
             var reference = list[index];
             if (reference == null)
-                throw new ArgumentNullException(String.Format("{0}[{1}]", paramName, index));
+                throw new ArgumentNullException(string.Format("{0}[{1}]", paramName, index));
             return reference;
         }
     }

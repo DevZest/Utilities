@@ -51,6 +51,7 @@
     <Compile Include="Bytes.ToHexString.cs" />
     <Compile Include="NameSuffixes.GetUniqueName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String.Base64.cs" />
     <Compile Include="Type.ResolveStaticGetter.cs" />
   </ItemGroup>
   <ItemGroup>
