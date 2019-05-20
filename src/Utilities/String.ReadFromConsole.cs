@@ -7,9 +7,11 @@ namespace DevZest
     {
         public static string ReadFromConsole(this string title, bool isPassword)
         {
+            title = title.TrimEnd();
             Console.Write(title);
             if (!title.EndsWith(":"))
                 Console.Write(':');
+            Console.Write(' ');
 
             if (isPassword)
                 return ReadPassword();
