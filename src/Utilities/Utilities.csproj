@@ -34,6 +34,7 @@
     <Compile Include="Argument.IReadOnlyList.VerifyNoNullItem.cs" />
     <Compile Include="Argument.String.VerifyNotEmpty.cs" />
     <Compile Include="Argument.IReadOnlyList.VerifyNotEmpty.cs" />
+    <Compile Include="AsyncRunnerBase.cs" />
     <Compile Include="BooleanBoxes.cs" />
     <Compile Include="Bytes.ToHexString.cs" />
     <Compile Include="Argument.IReadOnlyListItem.VerifyNotNull.cs" />
