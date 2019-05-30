@@ -6,7 +6,7 @@ namespace DevZest
 {
     public abstract class AsyncRunnerBase
     {
-        private object _sync = new object();
+        private readonly object _sync = new object();
         private bool _keepRunning;
         private bool _isRunning;
 
