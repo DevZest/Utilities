@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bytes.ToHexString.cs" />
+    <Compile Include="Decimal.TruncateTo.cs" />
     <Compile Include="NameSuffixes.GetUniqueName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="String.Base64Url.cs" />
